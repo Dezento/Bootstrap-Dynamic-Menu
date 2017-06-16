@@ -5,5 +5,5 @@ Solves problem of setting your menu items active when using dynamic pages.
 
 $('#yourid').dMenu({
 
-    className: "active" // class that shows active element  
+    className: "yourClass" // class that shows active element  
 });
