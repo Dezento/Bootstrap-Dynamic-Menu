@@ -2,16 +2,13 @@
 ##### Automatically determines and set the `active` class to the currently active page.
 ---
 
-#### Demo
----
-![Animated GIF Example](https://i.gyazo.com/3c9449cd4b422835a53a0dcd6000b77b.gif)
+## Demo
+![Animated GIF Example](https://github.com/dvlden/repository/blob/master/demo-preview.gif)
 
-#### How to use
----
+## How to use
 `$('#navbar').dynamicMenu();`
 
-#### Options
----
+## Options
 |  #  |     Option    |    Default    |  Type  |
 | --- | ------------- | ------------- | ------ |
 |  1  |  activeClass  |     active    | string |
