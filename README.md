@@ -3,7 +3,7 @@
 ---
 
 ## Demo
-![Animated GIF Example](https://github.com/dvlden/repository/blob/master/demo-preview.gif)
+![Animated GIF Example](https://github.com/dvlden/Bootstrap-Dynamic-Menu/blob/master/demo/demo-preview.gif)
 
 ## How to use
 `$('#navbar').dynamicMenu();`
