@@ -1,8 +1,9 @@
 # Dynamic Menu
 #### Automatically determines and set the `active` class to the currently active page.
 
-## Demo
 ![Animated GIF Example](https://github.com/dvlden/Bootstrap-Dynamic-Menu/blob/master/demo/demo-preview.gif)
+
+---
 
 ## How to use
 `$('#navbar').dynamicMenu();`
