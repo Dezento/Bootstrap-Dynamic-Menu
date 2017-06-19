@@ -1,14 +1,18 @@
-# Bootstrap-Dynamic-Menu
-Solves problem of setting your menu items active when including dynamic pages to a website. 
-Example:
+# Dynamic Menu
+#### Automatically determines and set the `active` class to the currently active page.
 
-![](https://i.gyazo.com/3c9449cd4b422835a53a0dcd6000b77b.gif)
+![Animated GIF Example](https://github.com/dvlden/Bootstrap-Dynamic-Menu/blob/master/demo/demo-preview.gif)
 
-# Usage:
-```
+---
 
-$('#yourid').dMenu({
+## How to use
+`$('#navbar').dynamicMenu();`
 
-    className: "yourClass" // class that shows active element  
-});
-```
+## Options
+|  #  |     Option    |    Default    |  Type  |
+| --- | ------------- | ------------- | ------ |
+|  1  |  activeClass  |     active    | string |
+|  2  |    homePage   |   index.php   | string |
+
+1. Given string will be applied to a parent element of the anchor element. Use this class to apply any CSS styling you need.
+2. Given string will be used to determine the main/home page in the navigation menu. Sometimes, people don't use "index.php", but instead use a different file name, such as "home.php" and then they tell the server which file represents the default index page.
