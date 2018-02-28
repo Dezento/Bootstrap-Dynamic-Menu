@@ -38,7 +38,8 @@
         setActiveItem: function(hrefContext) {
             $(this.element)
                 .find('a[href="' + hrefContext + '"]')
-                .parent()
+                .addClass(this.settings.activeClass)
+                .parents('li')
                 .addClass(this.settings.activeClass);
         }
     });
